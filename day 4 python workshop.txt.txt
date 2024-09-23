@@ -1,0 +1,264 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import numpy
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    import numpy
+ModuleNotFoundError: No module named 'numpy'
+print("hello world")
+hello world
+2+3
+5
+2**3
+8
+"MCE"*3
+'MCEMCEMCE'
+"MCE "*3
+'MCE MCE MCE '
+"MCE "*8
+'MCE MCE MCE MCE MCE MCE MCE MCE '
+x=5
+type(x)
+<class 'int'>
+x="Shailee"
+type(x)
+<class 'str'>
+x="Rohit"
+type(x)
+<class 'str'>
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+Hello
+World
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+Traceback (most recent call last):
+  File "C:/Users/shail/Desktop/python worshop/idle.py", line 1, in <module>
+    prin("Hello")
+NameError: name 'prin' is not defined. Did you mean: 'print'?
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+Hello
+Traceback (most recent call last):
+  File "C:/Users/shail/Desktop/python worshop/idle.py", line 2, in <module>
+    prin("World")
+NameError: name 'prin' is not defined. Did you mean: 'print'?
+name=shailee
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    name=shailee
+NameError: name 'shailee' is not defined
+name="shailee"
+first name = shailee
+SyntaxError: invalid syntax
+first_name = shailee
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    first_name = shailee
+NameError: name 'shailee' is not defined
+first_name="shailee"
+first_name
+'shailee'
+x=7
+print(x)
+7
+print("hello world")
+hello world
+x=input("Enter a Number:")
+Enter a Number:
+X=input("Enter a Number")
+Enter a NumberX=input("Enter a Number")
+X=input("Enter a Number:")
+Enter a Number:12
+print(x)
+
+print(x)
+
+X=input("Enter a Number:")
+Enter a Number:12
+print(x)
+
+X=input("Enter a Number:")
+Enter a Number:6
+print(x)
+
+print(X)
+6
+x=input("Enter a Number")
+Enter a Number12
+type(x)
+<class 'str'>
+x,y=input("Enter a Number:").sep()
+Enter a Number:12
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    x,y=input("Enter a Number:").sep()
+AttributeError: 'str' object has no attribute 'sep'
+x=int(input("Enter a Nmuber:"))X=input("Enter a Number:")
+SyntaxError: invalid syntax
+x=int(input("Enter a Number"))
+Enter a Number12
+type(12)
+<class 'int'>
+y=float(input("Enter CGPA:"))
+Enter CGPA:8.9
+type(y)
+<class 'float'>
+x,y=int(input"Enter two Number:").split())
+SyntaxError: unmatched ')'
+x,y=int(input("Enter two Number:").split())
+Enter two Number:5 7
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    x,y=int(input("Enter two Number:").split())
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+x,y=input("Enter two Number:").split()
+Enter two Number:5 8
+x=int(x)
+y=int(y)
+x+y
+13
+x,y=input("Enter two Number:").split()
+Enter two Number:1 2
+x+Y
+Traceback (most recent call last):
+  File "<pyshell#53>", line 1, in <module>
+    x+Y
+NameError: name 'Y' is not defined. Did you mean: 'y'?
+x+y
+'12'
+x,y=input("Enter two Number:")
+Enter two Number:3 4
+Traceback (most recent call last):
+  File "<pyshell#55>", line 1, in <module>
+    x,y=input("Enter two Number:")
+ValueError: too many values to unpack (expected 2)
+x,y=input("Enter three Number:").split()
+Enter three Number:12 7 20
+Traceback (most recent call last):
+  File "<pyshell#56>", line 1, in <module>
+    x,y=input("Enter three Number:").split()
+ValueError: too many values to unpack (expected 2)
+x,y,z=input("Enter three Number:").split()
+Enter three Number:12 7 20
+x=int(x)
+y=int(y)
+z=int(z)
+x+y+Z
+Traceback (most recent call last):
+  File "<pyshell#61>", line 1, in <module>
+    x+y+Z
+NameError: name 'Z' is not defined. Did you mean: 'z'?
+x+y+z
+39
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+HelloWorld
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+HelloWorld
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+Hello                  World
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+Hello world welcome to workshop
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+shailee*neha*sakshi*anshu are friends.
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+shailee#neha#sakshi#anshu are friends.
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+shailee@neha@sakshi@anshu         are friends.
+
+================================================================ RESTART: C:/Users/shail/Desktop/python worshop/idle.py ================================================================
+shailee&shivani&rohit&sarvottam are besties.
+4.5//2
+2.0
+4.5/2
+2.25
+5//2
+2
+x=5
+x**=2
+x
+25
+x=["rose","lotus"]
+print("rose" in x)
+True
+print("lily" in x)
+False
+print("lotus" not in x)
+False
+print("rose" not in x)
+False
+print("lotus" in x)
+True
+x=6
+y=7
+print(x is y)
+False
+x=6
+y=6
+print(x is y)
+True
+y=x
+print(x is not y)
+False
+x="Shailee"
+y=8
+print(x is y)
+False
+z="7"
+print(y is z)
+False
+# This is cooment
+# This is second comment
+>>> # This is third comment
+>>> """ghjbhedjs
+... jkbkkksejk
+... hhjjjkk
+... jkjkkhsifgfh
+... ljhgvb"""
+'ghjbhedjs\njkbkkksejk\nhhjjjkk\njkjkkhsifgfh\nljhgvb'
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+>>> """gjdrjkmdd
+... bjkjmnmndjk
+... hhjkmd
+... 
+... 
+... """
+'gjdrjkmdd\nbjkjmnmndjk\nhhjkmd\n\n\n'
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+Hello
+GEC Vaishali
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+Hello
+GEC Vaishali
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+Hello
+GEC Vaishali
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+GEC Vaishali
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+GEC Vaishali
+>>> 
+================================================================= RESTART: C:/Users/shail/Desktop/python worshop/id.py =================================================================
+Hello
+GEC Vaishali
