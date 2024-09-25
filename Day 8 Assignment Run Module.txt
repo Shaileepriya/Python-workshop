@@ -1,0 +1,44 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========= RESTART: C:/Users/shail/Desktop/python worshop/physics run.py ========
+     Roll No.  ... Percentage of Lectures Attended upto 31 Aug 23
+0       22101  ...                                          73.60
+1       22102  ...                                          84.21
+2       22103  ...                                          78.94
+3       22104  ...                                          68.42
+4       22105  ...                                          89.47
+..        ...  ...                                            ...
+132     22532  ...                                          80.76
+133     22533  ...                                          65.38
+134     22534  ...                                          57.69
+135     22535  ...                                          65.38
+136     22536  ...                                          73.07
+
+[137 rows x 4 columns]
+>>> 
+========= RESTART: C:/Users/shail/Desktop/python worshop/physics run.py ========
+0       Prince Kumar Sah
+1           Rupesh Kumar
+2          Diwakar Kumar
+3    Apeksha Shrivastava
+4           Aditya Kumar
+Name: Name of Student, dtype: object 0    14.0
+1    16.0
+2    15.0
+3    13.0
+4    17.0
+Name:  Lectures attended out of ...upto Aug 31, dtype: float64
+>>> 
+========= RESTART: C:/Users/shail/Desktop/python worshop/physics run.py ========
+132            Pradeep Kumar
+133             Ritesh Kumar
+134    Abhinav Kumar Bhaskar
+135                Rahul Raj
+136             Ahmad Nabeel
+Name: Name of Student, dtype: object 132    21.0
+133    17.0
+134    15.0
+135    17.0
+136    19.0
+Name:  Lectures attended out of ...upto Aug 31, dtype: float64

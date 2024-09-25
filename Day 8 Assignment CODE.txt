@@ -1,0 +1,47 @@
+#Overall Attendence of Students
+
+import  numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df=pd.read_csv("Physics.csv")
+print(df)
+
+
+#Attendence of Student in First Five Rows
+
+import  numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df=pd.read_csv("Physics.csv")
+#print(df.head())
+x=df.head().iloc[:,1]
+y=df.head().iloc[:,2]
+print(x,y)
+
+#print(df.insull().sum())
+plt.bar(x,y)
+plt.show()
+
+
+#Attendence of Student in Last Five Rows
+
+
+import  numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df=pd.read_csv("Physics.csv")
+#print(df.tail())
+x=df.tail().iloc[:,1]
+y=df.tail().iloc[:,2]
+print(x,y)
+
+#print(df.insull().sum())
+plt.bar(x,y)
+plt.show()
+
+
+
+
