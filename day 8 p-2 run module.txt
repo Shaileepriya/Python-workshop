@@ -1,0 +1,17 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:/Users/shail/Desktop/Workshop/day 8 python workshop coding.py
+103 is department code of EE
+EE is located in GEC Vaishali
+>>> import module
+>>> sum=module.add(5,9)
+>>> sum
+14
+>>> import module as md
+>>> pow=md.power(8,7)
+>>> pow
+2097152
+>>> min=md.subtract(8,7)
+>>> min
+1
