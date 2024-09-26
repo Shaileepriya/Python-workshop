@@ -1,0 +1,17 @@
+#Students having attendance between 10-20 rows.
+
+
+import  numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+df=pd.read_csv("Physics.csv")
+#print(df.head())
+#print(df.tail())
+x=df.iloc[10:20,1]
+y=df.iloc[10:20,2]
+
+#print(df.insull().sum())
+plt.bar(x,y)
+plt.show()
